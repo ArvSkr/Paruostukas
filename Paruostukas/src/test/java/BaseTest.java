@@ -14,7 +14,7 @@ public abstract class BaseTest {
         driver = new ChromeDriver();
 
         driver.manage().window().maximize();
-        driver.get("https://demo.prestashop.com/#/en/front");
+        driver.get("http://192.168.91.67/");
     }
 
     @AfterEach

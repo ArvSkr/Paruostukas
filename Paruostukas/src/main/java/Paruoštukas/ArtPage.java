@@ -1,4 +1,9 @@
 package Paruoštukas;
 
-public class ArtPage {
+import org.openqa.selenium.WebDriver;
+
+public class ArtPage extends LoginPage {
+    public ArtPage(WebDriver driver) {
+        super(driver);
+    }
 }

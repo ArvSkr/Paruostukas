@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class SignInPage {
+public class SignInPage  {
     WebDriver driver;
 
 
@@ -17,7 +17,7 @@ public class SignInPage {
     }
 
 
-    private By signInButton = By.xpath("/html/body/main/header/nav/div/div/div[1]/div[2]/div[2]/div/a");
+    private By signInButton = By.cssSelector(".user-info > a:nth-child(1)");
     private By noAccountLink = By.className("no-account");
     private By selectGender = By.id("field-id_gender-1");
     private By firstName = By.id("field-firstname");
